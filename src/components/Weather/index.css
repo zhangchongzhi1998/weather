@@ -1,0 +1,47 @@
+.weather {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  align-items: center;
+  margin: 0 auto;
+  background: url(../../asset/img/background.jpg) no-repeat;
+  background-size: cover;
+}
+
+.carousel {
+  width: 100px;
+  margin-right: -100%;
+}
+
+.refresh {
+  width: 80px;
+  height: 80px;
+}
+
+.go_left,
+.go_right {
+  width: 60px;
+  height: 60px;
+}
+.go_left {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.go_right {
+  position: absolute;
+  bottom: 0;
+}
+.clearfix ::after {
+  content: "";
+  display: inline-block;
+  clear: both;
+}
+.go_left {
+  float: left;
+}
+.go_right {
+  float: right;
+}
+.weather_list {
+}
